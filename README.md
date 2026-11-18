@@ -1,19 +1,40 @@
-# React + Vite
+# Заборчик 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Заборчик** — интерактивное React-приложение для хранения и управления списком контактов с удобной группировкой по алфавиту.
 
-Currently, two official plugins are available:
+Приложение позволяет добавлять, искать, редактировать и удалять контакты. Все данные сохраняются локально и остаются доступными после перезагрузки страницы.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Возможности
 
-## React Compiler
+- **Добавление контактов** — создание записей с именем, должностью и номером телефона.
+- **Алфавитная группировка** — автоматическое распределение контактов по буквам алфавита.
+- **Поиск** — поиск контактов по имени без учёта регистра.
+- **Редактирование** — изменение информации о существующих контактах.
+- **Удаление** — удаление отдельных записей.
+- **Очистка списка** — возможность удалить все контакты.
+- **Сохранение данных** — автоматическая синхронизация списка с `localStorage`.
+- **Интерактивный интерфейс** — раскрывающиеся секции и модальные окна для работы с контактами.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠 Технологии
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- **React** — создание пользовательского интерфейса.
+- **JavaScript (ES6+)** — логика приложения.
+- **React Hooks** — `useState`, `useEffect`, `useRef`, `useContext`.
+- **Context API** — управление общими данными между компонентами.
+- **LocalStorage API** — хранение контактов в браузере.
+- **HTML5** — семантическая разметка и элементы `<dialog>` и `<details>`.
+- **CSS** — стилизация интерфейса.
 
-## Expanding the ESLint configuration
+## 🎯 Цель проекта
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Проект разработан для практического изучения React и закрепления навыков:
+
+- Управление состоянием компонентов.
+- Работа с управляемыми формами.
+- Передача данных через Context API.
+- Использование React Hooks.
+- Реализация CRUD-операций.
+- Работа с браузерным хранилищем.
+- Условный рендеринг и динамические списки.
+
+[Учебный проект по Frontend-разработке на React.](https://tina2day.github.io/vite-project/)
